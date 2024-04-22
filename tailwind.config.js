@@ -9,6 +9,10 @@ export default {
       colors: {
         primary: "#154865" ,
         secondary: "##c96f20" ,
+      } , 
+      backgroundImage : {
+        mobile:' url("../public/mobile-background.jpg")',
+        desktop: 'url("../public/background.jpg")',
       }
     },
   },

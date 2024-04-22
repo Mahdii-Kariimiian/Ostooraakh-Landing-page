@@ -10,10 +10,10 @@ const Nav = () => {
         setIsClicked(!isClicked);
     };
     return (
-        <header className="p-5 flex justify-between items-center bg-sky-100 ">
+        <header className="p-5 flex justify-between items-center border-sky-100 border ">
             <div className="w-[100px] md:w-[150px]">
                 <img
-                    src="../../public/black Logo.png"
+                    src="../../public/white logo transparent.png"
                     alt="Logo"
                     aria-label="Logo"
                 />
