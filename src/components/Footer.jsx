@@ -12,9 +12,9 @@ import { SiGooglepodcasts } from "react-icons/si";
 
 const Footer = () => {
     return (
-        <div className="p-5 border border-sky-300 md:flex space-y-20 md:space-y-0 gap-20 items-center ">
+        <div className="bg-black p-10 md:flex space-y-20 md:space-y-0 gap-20 items-start ">
             <div className="">
-                <ul className="space-y-5">
+                <ul className="space-y-10">
                     <li>
                         <Link to="donation"> حمایت </Link>
                     </li>
@@ -27,21 +27,21 @@ const Footer = () => {
                 </ul>
             </div>
 
-            <div className="space-y-5">
+            <div className="space-y-10">
                 <div className="space-y-3">
                     <p> شبکه های اجتماعی : </p>
                     <ul className="flex gap-5 text-2xl">
-                        <li>
+                        <li className="hover:text-red-600">
                             <Link to="">
                                 <FaTwitter />
                             </Link>
                         </li>
-                        <li>
+                        <li className="hover:text-red-600">
                             <Link to="">
                                 <FaInstagram />
                             </Link>
                         </li>
-                        <li>
+                        <li className="hover:text-red-600">
                             <Link to="">
                                 <RiTelegramFill />
                             </Link>
@@ -51,22 +51,22 @@ const Footer = () => {
                 <div className="space-y-3">
                     <p>از اینجا گوش کنید:</p>
                     <ul className="flex gap-5 text-2xl">
-                        <li>
+                        <li className="hover:text-red-600">
                             <Link to="">
                                 <SiCastbox />
                             </Link>
                         </li>
-                        <li>
+                        <li className="hover:text-red-600">
                             <Link to="">
                                 <SiApplepodcasts />
                             </Link>
                         </li>
-                        <li>
+                        <li className="hover:text-red-600">
                             <Link to="">
                                 <FaSpotify />
                             </Link>
                         </li>
-                        <li>
+                        <li className="hover:text-red-600">
                             <Link to="">
                                 <SiGooglepodcasts />
                             </Link>
@@ -74,7 +74,16 @@ const Footer = () => {
                     </ul>
                 </div>
             </div>
-            <div className="md:mr-auto space-y-5">
+            <div>
+                    <h3>نویسنده و تنظیم کننده : </h3>
+                    <h2>مهدی کریمیان</h2>
+                    <br />
+                    <h3>گوینده :  </h3>
+                    <h2>
+                        کیوان شارخی
+                    </h2>
+                </div>
+            <div className="md:mr-auto space-y-8">
                 <div className="w-[200px] md:w-[150px]">
                     <img
                         src="../../public/white logo transparent.png"
@@ -82,16 +91,17 @@ const Footer = () => {
                         aria-label="Logo"
                     />
                 </div>
+                
                 <div className="space-y-3">
                     <p>توسعه داده شده توسط:</p>
                     <p>مهدی کریمیان </p>
                     <ul className="flex gap-5 text-2xl">
-                        <li>
+                        <li className="hover:text-red-600">
                             <Link to="">
                                 <FaGithub />
                             </Link>
                         </li>
-                        <li>
+                        <li className="hover:text-red-600">
                             <Link to="">
                                 <FaLinkedin />
                             </Link>

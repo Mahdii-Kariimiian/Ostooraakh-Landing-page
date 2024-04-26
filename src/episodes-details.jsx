@@ -1,6 +1,6 @@
 import { nanoid } from "nanoid";
 
-export const episodes = [
+const episodes = [
     {
         id: nanoid(),
         title: "خدایان اولیه پیشکسوتان عرصه آفرینش",
@@ -255,3 +255,6 @@ export const episodes = [
         file: "/Voices/ostooraakh S01 e22.mp3",
     },
 ];
+
+
+export default episodes ;

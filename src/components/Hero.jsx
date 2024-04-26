@@ -1,26 +1,9 @@
 import React from "react";
-import { useState, useEffect } from "react";
 
 const Hero = () => {
-    useEffect(() => {
-        fetch("http://localhost:3000/episodes")
-            .then((res) => {
-                if (!res.ok) {
-                    throw new Error("Network response was not ok");
-                }
-                return res.json();
-            })
-            .then((data) => {
-                console.log(data);
-            })
-            .catch((error) => {
-                console.error("Error fetching data:", error);
-            });
-    }, []);
-
     return (
         <div className="">
-            <section className="p-5 border border-sky-200 min-h-[500px] flex flex-col justify-evenly items-center md:flex-row gap-20">
+            <section className="p-16 min-h-[550px] flex flex-col justify-evenly items-center lg:flex-row gap-20">
                 <div className="space-y-10 ">
                     <h1 className=" whitespace-nowrap font-bold text-2xl md:text-4xl">
                         پادکست طنز اسطوراخ{" "}
