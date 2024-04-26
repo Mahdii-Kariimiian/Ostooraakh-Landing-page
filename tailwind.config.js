@@ -11,8 +11,8 @@ export default {
         secondary: "##c96f20" ,
       } , 
       backgroundImage : {
-        mobile:' url("../public/mobile-background.jpg")',
-        desktop: 'url("../public/background.jpg")',
+        mobile:' url("/mobile-background.jpg")',
+        desktop: 'url("/Background.jpg")',
       }
     },
   },

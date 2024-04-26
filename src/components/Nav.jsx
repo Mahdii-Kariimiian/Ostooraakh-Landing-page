@@ -15,7 +15,7 @@ const Nav = () => {
             <div className="w-[100px] md:w-[150px]">
                 <Link to="/">
                     <img 
-                        src="../../public/white logo transparent.png"
+                        src="/white logo transparent.png"
                         alt="Logo"
                         aria-label="Logo"
                     />

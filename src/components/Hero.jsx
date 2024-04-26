@@ -6,7 +6,7 @@ const Hero = () => {
             <section className="p-16 min-h-[550px] flex flex-col justify-evenly items-center lg:flex-row gap-20">
                 <div className="space-y-10 ">
                     <h1 className=" whitespace-nowrap font-bold text-2xl md:text-4xl">
-                        پادکست طنز اسطوراخ{" "}
+                        پادکست طنز اسطوراخ
                     </h1>
                     <h2 className="whitespace-nowrap text-xl md:text-2xl">
                         داستان هایی از دل هزاره های منفی
